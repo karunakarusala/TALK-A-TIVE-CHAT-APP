@@ -1,0 +1,31 @@
+.App{
+  
+    
+    min-height: 100vh; /* Ensure the content stretches the whole viewport */
+    display: flex;
+    flex-direction: column; /* Ensure flex direction for content to align properly */
+    background-image: url("https://png.pngtree.com/background/20230401/original/pngtree-blue-wave-background-aesthetic-trend-new-update-design-2023-vector-picture-image_2230170.jpg");
+    background-size: cover; /* Ensure the image covers the entire screen */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent image from repeating */
+    position: fixed; /* Fix the background image in place */
+    top: 0; /* Ensure it stays at the top */
+    left: 0; /* Ensure it stays at the left */
+    width: 100%; /* Ensure full width */
+    height: 100%; /* Ensure full height */
+    overflow: hidden; 
+   
+    
+}
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(136, 136, 136, 0.281);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
