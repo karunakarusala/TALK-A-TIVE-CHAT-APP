@@ -22,15 +22,12 @@ A real-time chat application built using the **MERN stack** to create an interac
 
 ### 1. Clone the repository
 
-```bash
 git clone https://github.com/karunakarusala/TALK-A-TIVE-CHAT-APP.git
 cd TALK-A-TIVE-CHAT-APP
 2. Install dependencies for both the frontend and backend
 3. Set up the environment variables
 Create a .env file in both the Frontend and Backend directories.
 Add the following variables to each respective .env file:
-
-
 
 
 REACT_APP_API_URL=http://localhost:5000
@@ -44,13 +41,11 @@ SECRET_KEY=your-secret-key
 
 Run the backend:
 
-Copy code
 cd Backend
 npm start
 
 Run the frontend:
 
-Copy code
 cd Frontend
 npm start
 
